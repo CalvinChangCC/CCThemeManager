@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SAPThemeManager"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "SapphireInfo Color Theme Manager."
   s.description  = <<-DESC
                    SapphireInfo color theme manager.
