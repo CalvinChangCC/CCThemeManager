@@ -64,7 +64,7 @@ extension UIButton {
         }
     }
 
-    open func setTitleColorKey(_ themeKey: String?, for state: UIControlState) {
+    @objc open func setTitleColorKey(_ themeKey: String?, for state: UIControlState) {
         let hexString = SAPThemeManager.shared.colorDic![themeKey!]
         setTitleColor(UIColor(fromHexString: hexString), for: state)
     }
