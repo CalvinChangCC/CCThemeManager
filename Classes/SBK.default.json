@@ -1,0 +1,27 @@
+{
+    "primaryColor1"     :"#dff0f4",
+    "primaryColor2"     :"#b3e7f6",
+    "primaryColor3"     :"#9cd9ec",
+    "primaryColor4"     :"#6baed7",
+    "primaryColor5"     :"#3e96cb",
+    "primaryColor6"     :"#206b99",
+    "primaryColor7"     :"#158983",
+
+    "secondaryColor0"   :"#ffffff",
+    "secondaryColor1"   :"#f7f7f7",
+    "secondaryColor2"   :"#e9e9e9",
+    "secondaryColor3"   :"#b3b3b3",
+    "secondaryColor4"   :"#dbdfe4",
+    "secondaryColor10"  :"#000000",
+
+    "tertiaryColor1"    :"#949494",
+    "tertiaryColor2"    :"#4a4a4a",
+    "tertiaryColor3"    :"#363636",
+
+    "warningColor1"     :"#eb6742",
+    "warningColor2"     :"#f6d1c6",
+    "warningColor3"     :"#e35033",
+    "warningColor4"     :"#f8f1ee",
+
+    "selectedColor1"    :"#f8e81c"
+}
