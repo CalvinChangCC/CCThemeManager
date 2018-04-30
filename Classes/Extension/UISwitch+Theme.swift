@@ -7,9 +7,11 @@
 //
 
 import Foundation
+import Colours
+import SAPFoundation
 
 extension UISwitch {
-    var onTintColorKey: String? {
+    @IBInspectable open var onTintColorKey: String? {
         get {
             return value(forKeyString: "onTintColorKey") as? String;
         }

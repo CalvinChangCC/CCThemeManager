@@ -7,9 +7,11 @@
 //
 
 import Foundation
+import Colours
+import SAPFoundation
 
 extension UITableView {
-    var separatorColorKey: String? {
+    @IBInspectable open var separatorColorKey: String? {
         get {
             return value(forKeyString: "separatorColorKey") as? String;
         }

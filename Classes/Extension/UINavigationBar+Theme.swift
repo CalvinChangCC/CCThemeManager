@@ -7,9 +7,11 @@
 //
 
 import Foundation
+import Colours
+import SAPFoundation
 
 extension UINavigationBar {
-    var barTintColorKey: String? {
+    @IBInspectable open var barTintColorKey: String? {
         get {
             return value(forKeyString: "barTintColorKey") as? String;
         }

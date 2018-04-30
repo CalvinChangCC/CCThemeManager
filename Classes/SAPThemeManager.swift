@@ -9,15 +9,15 @@
 import UIKit
 
 @objcMembers
-class SAPThemeManager: NSObject {
+open class SAPThemeManager: NSObject {
 
-    static let shared = SAPThemeManager()
+    open static let shared = SAPThemeManager()
     
     public var colorDic : Dictionary<String, String>?
     
     private override init() {}
     
-    class func initWith(theme: String) {
+    open class func initWith(theme: String) {
         shared.configureManagerWith(theme: theme)
     }
     

@@ -7,9 +7,11 @@
 //
 
 import Foundation
+import Colours
+import SAPFoundation
 
 extension UIView {
-    var backgroundColorKey: String? {
+    @IBInspectable open var backgroundColorKey: String? {
         get {
             return value(forKeyString: "backgroundColorKey") as? String;
         }
@@ -23,7 +25,7 @@ extension UIView {
         }
     }
 
-    var tintColorKey: String? {
+    @IBInspectable open var tintColorKey: String? {
         get {
             return value(forKeyString: "tintColorKey") as? String;
         }

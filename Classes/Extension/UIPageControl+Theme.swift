@@ -7,9 +7,11 @@
 //
 
 import Foundation
+import Colours
+import SAPFoundation
 
 extension UIPageControl {
-    var currentPageIndicatorTintColorKey: String? {
+    @IBInspectable open var currentPageIndicatorTintColorKey: String? {
         get {
             return value(forKeyString: "currentPageIndicatorTintColorKey") as? String;
         }

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Colours
 
 extension UIColor {
     static open func colorForTheme(key: String) -> UIColor! {

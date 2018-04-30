@@ -1,0 +1,32 @@
+PODS:
+  - Colours (5.13.0):
+    - Colours/ObjC (= 5.13.0)
+  - Colours/ObjC (5.13.0)
+  - Mantle (2.1.0):
+    - Mantle/extobjc (= 2.1.0)
+  - Mantle/extobjc (2.1.0)
+  - ReactiveObjC (3.0.0)
+  - SAPFoundation (1.0.2):
+    - Mantle (~> 2.1.0)
+    - ReactiveObjC (~> 3.0.0)
+  - SAPThemeManager (1.0.0):
+    - Colours (~> 5.13.0)
+    - SAPFoundation (~> 1.0.0)
+
+DEPENDENCIES:
+  - SAPThemeManager (from `./`)
+
+EXTERNAL SOURCES:
+  SAPThemeManager:
+    :path: ./
+
+SPEC CHECKSUMS:
+  Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
+  Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
+  ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
+  SAPFoundation: 7840f2dec5079d0b50797326195cdba5ec7cd161
+  SAPThemeManager: 2ca9828f363f086ec4232adae9e101604ee2d6c7
+
+PODFILE CHECKSUM: 28ad590332246ed828ea3beea215dad066dd6e07
+
+COCOAPODS: 1.4.0

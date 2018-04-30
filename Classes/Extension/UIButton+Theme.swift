@@ -7,10 +7,12 @@
 //
 
 import Foundation
+import Colours
+import SAPFoundation
 
 extension UIButton {
 
-    var titleColorKey_normal: String? {
+    @IBInspectable open var titleColorKey_normal: String? {
         get {
             return value(forKeyString: "titleColorKey_normal") as? String;
         }
@@ -23,7 +25,7 @@ extension UIButton {
         }
     }
 
-    var titleColorKey_highlighted: String? {
+    @IBInspectable open var titleColorKey_highlighted: String? {
         get {
             return value(forKeyString: "titleColorKey_highlighted") as? String;
         }
@@ -36,7 +38,7 @@ extension UIButton {
         }
     }
 
-    var titleColorKey_disabled: String? {
+    @IBInspectable open var titleColorKey_disabled: String? {
         get {
             return value(forKeyString: "titleColorKey_disabled") as? String;
         }
@@ -49,7 +51,7 @@ extension UIButton {
         }
     }
 
-    var titleColorKey_selected: String? {
+    @IBInspectable open var titleColorKey_selected: String? {
         get {
             return value(forKeyString: "titleColorKey_selected") as? String;
         }

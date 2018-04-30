@@ -7,9 +7,11 @@
 //
 
 import Foundation
+import Colours
+import SAPFoundation
 
 extension UITextField {
-    var textColorKey: String? {
+    @IBInspectable open var textColorKey: String? {
         get {
             return value(forKeyString: "textColorKey") as? String;
         }
