@@ -7,8 +7,6 @@
 //
 
 import Foundation
-import Colours
-import SAPFoundation
 
 extension UITextField {
     @IBInspectable open var textColorKey: String? {
@@ -20,7 +18,7 @@ extension UITextField {
             setValue(newValue, forKeyString: "textColorKey")
             if newValue != nil {
                 let hexString = SAPThemeManager.shared.colorDic![newValue!]
-                textColor = UIColor(fromHexString: hexString)
+                textColor = UIColor(hexString: hexString!)
             }
         }
     }

@@ -164,7 +164,6 @@
 				0BCE90C62096F94C00205B1D /* Frameworks */,
 				0BCE90C72096F94C00205B1D /* Resources */,
 				A5DDDAD8022F075914F321A9 /* [CP] Embed Pods Frameworks */,
-				BB24B775E84155AF4DF8394B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -293,38 +292,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SAPThemeManagerDemo/Pods-SAPThemeManagerDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Colours/Colours.framework",
-				"${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework",
-				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
-				"${BUILT_PRODUCTS_DIR}/SAPFoundation/SAPFoundation.framework",
 				"${BUILT_PRODUCTS_DIR}/SAPThemeManager/SAPThemeManager.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Colours.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mantle.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAPFoundation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAPThemeManager.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAPThemeManagerDemo/Pods-SAPThemeManagerDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BB24B775E84155AF4DF8394B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAPThemeManagerDemo/Pods-SAPThemeManagerDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D17B9FE812EF2EEF7742350B /* [CP] Check Pods Manifest.lock */ = {

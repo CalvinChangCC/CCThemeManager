@@ -7,57 +7,54 @@
 //
 
 import Foundation
-import Colours
-import SAPFoundation
 
 extension UIButton {
-
-    @IBInspectable open var titleColorKey_normal: String? {
+    @IBInspectable open var titleColorKeyNormal: String? {
         get {
-            return value(forKeyString: "titleColorKey_normal") as? String;
+            return value(forKeyString: "titleColorKeyNormal") as? String;
         }
 
         set {
-            setValue(newValue, forKeyString: "titleColorKey_normal")
+            setValue(newValue, forKeyString: "titleColorKeyNormal")
             if newValue != nil {
                 setTitleColorKey(newValue, for: .normal)
             }
         }
     }
 
-    @IBInspectable open var titleColorKey_highlighted: String? {
+    @IBInspectable open var titleColorKeyHighlighted: String? {
         get {
-            return value(forKeyString: "titleColorKey_highlighted") as? String;
+            return value(forKeyString: "titleColorKeyHighlighted") as? String;
         }
 
         set {
-            setValue(newValue, forKeyString: "titleColorKey_highlighted")
+            setValue(newValue, forKeyString: "titleColorKeyHighlighted")
             if newValue != nil {
                 setTitleColorKey(newValue, for: .highlighted)
             }
         }
     }
 
-    @IBInspectable open var titleColorKey_disabled: String? {
+    @IBInspectable open var titleColorKeyDisabled: String? {
         get {
-            return value(forKeyString: "titleColorKey_disabled") as? String;
+            return value(forKeyString: "titleColorKeyDisabled") as? String;
         }
 
         set {
-            setValue(newValue, forKeyString: "titleColorKey_disabled")
+            setValue(newValue, forKeyString: "titleColorKeyDisabled")
             if newValue != nil {
                 setTitleColorKey(newValue, for: .disabled)
             }
         }
     }
 
-    @IBInspectable open var titleColorKey_selected: String? {
+    @IBInspectable open var titleColorKeySelected: String? {
         get {
-            return value(forKeyString: "titleColorKey_selected") as? String;
+            return value(forKeyString: "titleColorKeySelected") as? String;
         }
 
         set {
-            setValue(newValue, forKeyString: "titleColorKey_selected")
+            setValue(newValue, forKeyString: "titleColorKeySelected")
             if newValue != nil {
                 setTitleColorKey(newValue, for: .selected)
             }
@@ -66,6 +63,6 @@ extension UIButton {
 
     @objc open func setTitleColorKey(_ themeKey: String?, for state: UIControlState) {
         let hexString = SAPThemeManager.shared.colorDic![themeKey!]
-        setTitleColor(UIColor(fromHexString: hexString), for: state)
+        setTitleColor(UIColor(hexString: hexString!), for: state)
     }
 }

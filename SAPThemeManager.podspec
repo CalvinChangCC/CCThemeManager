@@ -1,6 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "SAPThemeManager"
-  s.version      = "1.0.1"
+  s.version      = "2.0.0"
+
   s.summary      = "SapphireInfo Color Theme Manager."
   s.description  = <<-DESC
                    SapphireInfo color theme manager.
@@ -11,8 +12,6 @@ Pod::Spec.new do |s|
   s.author       = { "calvin.chang" => "calvin.chang@sapphireinfo.com.tw" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "git@git.sapphireinfo.com.tw:ios/SAPThemeManager.git", :tag => s.version }
-  s.source_files = "Classes/**/*.{swift,h}"
+  s.source_files = "Classes/**/*.{swift}"
   s.requires_arc = true
-  s.dependency "Colours", "~> 5.13.0"
-  s.dependency "SAPFoundation", "~> 1.0.0"
 end

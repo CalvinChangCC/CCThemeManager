@@ -7,8 +7,6 @@
 //
 
 import Foundation
-import Colours
-import SAPFoundation
 
 extension UIView {
     @IBInspectable open var backgroundColorKey: String? {
@@ -20,7 +18,7 @@ extension UIView {
             setValue(newValue, forKeyString: "backgroundColorKey")
             if newValue != nil {
                 let hexString = SAPThemeManager.shared.colorDic![newValue!]
-                backgroundColor = UIColor(fromHexString: hexString)
+                backgroundColor = UIColor(hexString: hexString!)
             }
         }
     }
@@ -34,7 +32,7 @@ extension UIView {
             setValue(newValue, forKeyString: "tintColorKey")
             if newValue != nil {
                 let hexString = SAPThemeManager.shared.colorDic![newValue!]
-                tintColor = UIColor(fromHexString: hexString)
+                tintColor = UIColor(hexString: hexString!)
             }
         }
     }

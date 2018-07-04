@@ -7,16 +7,15 @@
 //
 
 import Foundation
-import Colours
 
 extension UIColor {
     @objc open static func colorForTheme(key: String) -> UIColor! {
         let hexString = SAPThemeManager.shared.colorDic![key]
-        return UIColor(fromHexString: hexString)
+        return UIColor(hexString: hexString!)
     }
 
     @objc public convenience init(themeKey: String) {
         let hexString = SAPThemeManager.shared.colorDic![themeKey]
-        self.init(fromHexString: hexString)
+        self.init(hexString: hexString!)
     }
 }

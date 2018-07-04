@@ -13,7 +13,7 @@ open class SAPThemeManager: NSObject {
 
     open static let shared = SAPThemeManager()
     
-    public var colorDic : Dictionary<String, String>?
+    public var colorDic : [String: String]?
     
     private override init() {}
     
@@ -25,8 +25,8 @@ open class SAPThemeManager: NSObject {
         let filePath = Bundle.main.path(forResource: theme, ofType: "json")
         do {
             let data = try Data(contentsOf: URL(fileURLWithPath: filePath!))
-            let json = try JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.allowFragments)
-            self.colorDic = json as? Dictionary<String, String>
+            let json = try JSONSerialization.jsonObject(with: data, options: .allowFragments)
+            self.colorDic = json as? [String: String]
         }
         catch {
             print("[ERROR][SAPThemeManager] Theme json file parse fail")

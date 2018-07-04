@@ -7,8 +7,6 @@
 //
 
 import Foundation
-import Colours
-import SAPFoundation
 
 extension UINavigationBar {
     @IBInspectable open var barTintColorKey: String? {
@@ -20,7 +18,7 @@ extension UINavigationBar {
             setValue(newValue, forKeyString: "barTintColorKey")
             if newValue != nil {
                 let hexString = SAPThemeManager.shared.colorDic![newValue!]
-                barTintColor = UIColor(fromHexString: hexString)
+                barTintColor = UIColor(hexString: hexString!)
             }
         }
     }

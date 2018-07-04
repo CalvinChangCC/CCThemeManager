@@ -7,8 +7,6 @@
 //
 
 import Foundation
-import Colours
-import SAPFoundation
 
 extension UIPageControl {
     @IBInspectable open var currentPageIndicatorTintColorKey: String? {
@@ -20,7 +18,7 @@ extension UIPageControl {
             setValue(newValue, forKeyString: "currentPageIndicatorTintColorKey")
             if newValue != nil {
                 let hexString = SAPThemeManager.shared.colorDic![newValue!]
-                currentPageIndicatorTintColor = UIColor(fromHexString: hexString)
+                currentPageIndicatorTintColor = UIColor(hexString: hexString!)
             }
         }
     }

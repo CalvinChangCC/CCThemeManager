@@ -7,8 +7,6 @@
 //
 
 import Foundation
-import Colours
-import SAPFoundation
 
 extension UITableView {
     @IBInspectable open var separatorColorKey: String? {
@@ -20,7 +18,7 @@ extension UITableView {
             setValue(newValue, forKeyString: "separatorColorKey")
             if newValue != nil {
                 let hexString = SAPThemeManager.shared.colorDic![newValue!]
-                separatorColor = UIColor(fromHexString: hexString)
+                separatorColor = UIColor(hexString: hexString!)
             }
         }
     }
