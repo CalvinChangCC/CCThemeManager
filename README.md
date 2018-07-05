@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/badge/pod-2.0.0-blue.svg)![Build Pass](https://img.shields.io/continuousphp/git-hub/doctrine/dbal/master.svg)![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)![License](https://img.shields.io/cocoapods/l/Presentr.svg?style=flat)
+![Version](https://img.shields.io/badge/pod-2.0.0-blue.svg)  ![Build Pass](https://img.shields.io/continuousphp/git-hub/doctrine/dbal/master.svg)  ![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)  ![License](https://img.shields.io/cocoapods/l/Presentr.svg?style=flat)
 
 
 
