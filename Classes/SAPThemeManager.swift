@@ -13,7 +13,7 @@ open class SAPThemeManager: NSObject {
 
     open static let shared = SAPThemeManager()
     
-    fileprivate var colorDic: [String: String]?
+    var colorDic: [String: String]?
     
     private override init() {}
     
