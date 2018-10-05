@@ -9,13 +9,20 @@
 import Foundation
 
 extension UIColor {
-    @objc open static func colorForTheme(key: String) -> UIColor! {
-        let hexString = SAPThemeManager.shared.colorDic![key]
-        return UIColor(hexString: hexString!)
+    @objc open static func colorForTheme(key: String) -> UIColor? {
+        if let hexString = SAPThemeManager.shared.colorDic?[key] {
+            return UIColor(hexString: hexString)
+        }
+        return nil
     }
 
     @objc public convenience init(themeKey: String) {
-        let hexString = SAPThemeManager.shared.colorDic![themeKey]
-        self.init(hexString: hexString!)
+        if let hexString = SAPThemeManager.shared.colorDic?[themeKey] {
+            self.init(hexString: hexString)
+        }
+        else {
+            assertionFailure("[ERROR] Can not find the theme key")
+            self.init()
+        }
     }
 }

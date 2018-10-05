@@ -11,14 +11,13 @@ import Foundation
 extension UISwitch {
     @IBInspectable open var onTintColorKey: String? {
         get {
-            return value(forKeyString: "onTintColorKey") as? String;
+            return value(forKeyString: "onTintColorKey") as? String
         }
 
         set {
             setValue(newValue, forKeyString: "onTintColorKey")
-            if newValue != nil {
-                let hexString = SAPThemeManager.shared.colorDic![newValue!]
-                onTintColor = UIColor(hexString: hexString!)
+            if let key = newValue, let hexString = SAPThemeManager.shared.colorDic?[key] {
+                onTintColor = UIColor(hexString: hexString)
             }
         }
     }

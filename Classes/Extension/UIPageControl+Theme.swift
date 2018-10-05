@@ -11,14 +11,13 @@ import Foundation
 extension UIPageControl {
     @IBInspectable open var currentPageIndicatorTintColorKey: String? {
         get {
-            return value(forKeyString: "currentPageIndicatorTintColorKey") as? String;
+            return value(forKeyString: "currentPageIndicatorTintColorKey") as? String
         }
 
         set {
             setValue(newValue, forKeyString: "currentPageIndicatorTintColorKey")
-            if newValue != nil {
-                let hexString = SAPThemeManager.shared.colorDic![newValue!]
-                currentPageIndicatorTintColor = UIColor(hexString: hexString!)
+            if let key = newValue, let hexString = SAPThemeManager.shared.colorDic?[key] {
+                currentPageIndicatorTintColor = UIColor(hexString: hexString)
             }
         }
     }

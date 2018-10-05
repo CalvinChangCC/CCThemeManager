@@ -11,14 +11,13 @@ import Foundation
 extension UITextField {
     @IBInspectable open var textColorKey: String? {
         get {
-            return value(forKeyString: "textColorKey") as? String;
+            return value(forKeyString: "textColorKey") as? String
         }
 
         set {
             setValue(newValue, forKeyString: "textColorKey")
-            if newValue != nil {
-                let hexString = SAPThemeManager.shared.colorDic![newValue!]
-                textColor = UIColor(hexString: hexString!)
+            if let key = newValue, let hexString = SAPThemeManager.shared.colorDic?[key] {
+                textColor = UIColor(hexString: hexString)
             }
         }
     }

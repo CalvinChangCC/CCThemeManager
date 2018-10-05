@@ -1,5 +1,5 @@
 PODS:
-  - SAPThemeManager (1.0.1)
+  - SAPThemeManager (2.0.0)
 
 DEPENDENCIES:
   - SAPThemeManager (from `./`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  SAPThemeManager: 57b16060770f341dbcdd59526fab86e51fad723b
+  SAPThemeManager: e07eade31f68f54e9bac8e644210c2c2c128f3b9
 
 PODFILE CHECKSUM: 28ad590332246ed828ea3beea215dad066dd6e07
 
