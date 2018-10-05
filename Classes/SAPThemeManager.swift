@@ -17,6 +17,7 @@ open class SAPThemeManager: NSObject {
     
     private override init() {}
     
+    // MARK: - Initial function
     open class func initWith(filePath: String) {
         shared.configureManagerWith(theme: filePath)
     }
@@ -42,4 +43,15 @@ open class SAPThemeManager: NSObject {
         }
     }
     
+    // MARK: - Public function
+    open func color(by key: String) -> UIColor? {
+        if let hex = colorDic?[key] {
+            return UIColor(hexString: hex)
+        }
+        return nil
+    }
+
+    open func hex(by key: String) -> String? {
+        return colorDic?[key]
+    }
 }
