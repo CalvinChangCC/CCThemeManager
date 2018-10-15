@@ -11,7 +11,13 @@ This library is use for change the color in run time, by the different style fil
 
 ## What's New
 
+#### 2.1.0
+
+- Update Project to Swift 4.2
+- Fix nil condition
+
 #### 2.0.0
+
 - Remove all the project dependency
 - Change UIButton's IBInspectable property name 
 
@@ -26,7 +32,7 @@ This library is use for change the color in run time, by the different style fil
 
 
 ## Supported Swift Versions
-- Swift 4
+- Swift 4.2
 
 
 
