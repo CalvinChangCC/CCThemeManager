@@ -7,6 +7,6 @@ use_frameworks!
 
 inhibit_all_warnings!
 
-target 'SAPThemeManagerDemo' do
-    pod 'SAPThemeManager', :path => "./"
+target 'CCThemeManagerDemo' do
+    pod 'CCThemeManager', :path => "./"
 end

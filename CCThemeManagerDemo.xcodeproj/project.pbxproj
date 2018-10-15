@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BC1F8EC2097003C00635781 /* SBK.default.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BC1F8EB2097003C00635781 /* SBK.default.json */; };
-		0BCE90CD2096F94C00205B1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE90CC2096F94C00205B1D /* AppDelegate.swift */; };
-		0BCE90CF2096F94C00205B1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE90CE2096F94C00205B1D /* ViewController.swift */; };
-		0BCE90D22096F94C00205B1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BCE90D02096F94C00205B1D /* Main.storyboard */; };
-		0BCE90D42096F94D00205B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BCE90D32096F94D00205B1D /* Assets.xcassets */; };
-		0BCE90D72096F94D00205B1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BCE90D52096F94D00205B1D /* LaunchScreen.storyboard */; };
-		0BCE90E22096F94D00205B1D /* SAPThemeManagerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE90E12096F94D00205B1D /* SAPThemeManagerDemoTests.swift */; };
-		0BCE90ED2096F94D00205B1D /* SAPThemeManagerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCE90EC2096F94D00205B1D /* SAPThemeManagerDemoUITests.swift */; };
-		4F6D47F19A7D8885273C3A69 /* Pods_SAPThemeManagerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC66E0A1FFD82389C7C688D4 /* Pods_SAPThemeManagerDemo.framework */; };
+		0B25FAD12174963100258026 /* CCThemeManagerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B800F1421748AB400B01CF9 /* CCThemeManagerDemoTests.swift */; };
+		0B25FAD22174963700258026 /* CCThemeManagerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B800F2121748AB400B01CF9 /* CCThemeManagerDemoUITests.swift */; };
+		0B800F2521748AB400B01CF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B800F1721748AB400B01CF9 /* ViewController.swift */; };
+		0B800F2621748AB400B01CF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B800F1821748AB400B01CF9 /* Assets.xcassets */; };
+		0B800F2721748AB400B01CF9 /* SBK.default.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B800F1921748AB400B01CF9 /* SBK.default.json */; };
+		0B800F2821748AB400B01CF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B800F1A21748AB400B01CF9 /* LaunchScreen.storyboard */; };
+		0B800F2921748AB400B01CF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B800F1C21748AB400B01CF9 /* Main.storyboard */; };
+		0B800F2A21748AB400B01CF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B800F1E21748AB400B01CF9 /* AppDelegate.swift */; };
+		0FA044EC19CB2C34D3849381 /* Pods_CCThemeManagerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA80750CA232C7BF8E47CDD6 /* Pods_CCThemeManagerDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,23 +36,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BC1F8EB2097003C00635781 /* SBK.default.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SBK.default.json; sourceTree = "<group>"; };
-		0BCE90C92096F94C00205B1D /* SAPThemeManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAPThemeManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BCE90CC2096F94C00205B1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0BCE90CE2096F94C00205B1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0BCE90D12096F94C00205B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0BCE90D32096F94D00205B1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0BCE90D62096F94D00205B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0BCE90D82096F94D00205B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BCE90DD2096F94D00205B1D /* SAPThemeManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAPThemeManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BCE90E12096F94D00205B1D /* SAPThemeManagerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAPThemeManagerDemoTests.swift; sourceTree = "<group>"; };
-		0BCE90E32096F94D00205B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BCE90E82096F94D00205B1D /* SAPThemeManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAPThemeManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BCE90EC2096F94D00205B1D /* SAPThemeManagerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAPThemeManagerDemoUITests.swift; sourceTree = "<group>"; };
-		0BCE90EE2096F94D00205B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B800F1421748AB400B01CF9 /* CCThemeManagerDemoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCThemeManagerDemoTests.swift; sourceTree = "<group>"; };
+		0B800F1521748AB400B01CF9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B800F1721748AB400B01CF9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B800F1821748AB400B01CF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B800F1921748AB400B01CF9 /* SBK.default.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SBK.default.json; sourceTree = "<group>"; };
+		0B800F1B21748AB400B01CF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B800F1D21748AB400B01CF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B800F1E21748AB400B01CF9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B800F1F21748AB400B01CF9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B800F2121748AB400B01CF9 /* CCThemeManagerDemoUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCThemeManagerDemoUITests.swift; sourceTree = "<group>"; };
+		0B800F2221748AB400B01CF9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BCE90C92096F94C00205B1D /* CCThemeManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCThemeManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BCE90DD2096F94D00205B1D /* CCThemeManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCThemeManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BCE90E82096F94D00205B1D /* CCThemeManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCThemeManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27EAC17125D43F0C44494124 /* Pods-SAPThemeManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPThemeManagerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAPThemeManagerDemo/Pods-SAPThemeManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4B495C80EFCB9714962A54E1 /* Pods-CCThemeManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCThemeManagerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCThemeManagerDemo/Pods-CCThemeManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5B4B66DA3B6DB1CE6635401E /* Pods-SAPThemeManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAPThemeManagerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAPThemeManagerDemo/Pods-SAPThemeManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A63F611298434038D4BB8812 /* Pods-CCThemeManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCThemeManagerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCThemeManagerDemo/Pods-CCThemeManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		BC66E0A1FFD82389C7C688D4 /* Pods_SAPThemeManagerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAPThemeManagerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA80750CA232C7BF8E47CDD6 /* Pods_CCThemeManagerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCThemeManagerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F6D47F19A7D8885273C3A69 /* Pods_SAPThemeManagerDemo.framework in Frameworks */,
+				0FA044EC19CB2C34D3849381 /* Pods_CCThemeManagerDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,12 +84,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B800F1321748AB400B01CF9 /* CCThemeManagerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B800F1421748AB400B01CF9 /* CCThemeManagerDemoTests.swift */,
+				0B800F1521748AB400B01CF9 /* Info.plist */,
+			);
+			path = CCThemeManagerDemoTests;
+			sourceTree = "<group>";
+		};
+		0B800F1621748AB400B01CF9 /* CCThemeManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0B800F1721748AB400B01CF9 /* ViewController.swift */,
+				0B800F1821748AB400B01CF9 /* Assets.xcassets */,
+				0B800F1921748AB400B01CF9 /* SBK.default.json */,
+				0B800F1A21748AB400B01CF9 /* LaunchScreen.storyboard */,
+				0B800F1C21748AB400B01CF9 /* Main.storyboard */,
+				0B800F1E21748AB400B01CF9 /* AppDelegate.swift */,
+				0B800F1F21748AB400B01CF9 /* Info.plist */,
+			);
+			path = CCThemeManagerDemo;
+			sourceTree = "<group>";
+		};
+		0B800F2021748AB400B01CF9 /* CCThemeManagerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B800F2121748AB400B01CF9 /* CCThemeManagerDemoUITests.swift */,
+				0B800F2221748AB400B01CF9 /* Info.plist */,
+			);
+			path = CCThemeManagerDemoUITests;
+			sourceTree = "<group>";
+		};
 		0BCE90C02096F94C00205B1D = {
 			isa = PBXGroup;
 			children = (
-				0BCE90CB2096F94C00205B1D /* SAPThemeManagerDemo */,
-				0BCE90E02096F94D00205B1D /* SAPThemeManagerDemoTests */,
-				0BCE90EB2096F94D00205B1D /* SAPThemeManagerDemoUITests */,
+				0B800F1621748AB400B01CF9 /* CCThemeManagerDemo */,
+				0B800F1321748AB400B01CF9 /* CCThemeManagerDemoTests */,
+				0B800F2021748AB400B01CF9 /* CCThemeManagerDemoUITests */,
 				0BCE90CA2096F94C00205B1D /* Products */,
 				95977D5C2278EC2CE549E972 /* Pods */,
 				DBF9974A3D3025A0F299D2AD /* Frameworks */,
@@ -96,43 +131,11 @@
 		0BCE90CA2096F94C00205B1D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0BCE90C92096F94C00205B1D /* SAPThemeManagerDemo.app */,
-				0BCE90DD2096F94D00205B1D /* SAPThemeManagerDemoTests.xctest */,
-				0BCE90E82096F94D00205B1D /* SAPThemeManagerDemoUITests.xctest */,
+				0BCE90C92096F94C00205B1D /* CCThemeManagerDemo.app */,
+				0BCE90DD2096F94D00205B1D /* CCThemeManagerDemoTests.xctest */,
+				0BCE90E82096F94D00205B1D /* CCThemeManagerDemoUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		0BCE90CB2096F94C00205B1D /* SAPThemeManagerDemo */ = {
-			isa = PBXGroup;
-			children = (
-				0BC1F8EB2097003C00635781 /* SBK.default.json */,
-				0BCE90CC2096F94C00205B1D /* AppDelegate.swift */,
-				0BCE90CE2096F94C00205B1D /* ViewController.swift */,
-				0BCE90D02096F94C00205B1D /* Main.storyboard */,
-				0BCE90D32096F94D00205B1D /* Assets.xcassets */,
-				0BCE90D52096F94D00205B1D /* LaunchScreen.storyboard */,
-				0BCE90D82096F94D00205B1D /* Info.plist */,
-			);
-			path = SAPThemeManagerDemo;
-			sourceTree = "<group>";
-		};
-		0BCE90E02096F94D00205B1D /* SAPThemeManagerDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				0BCE90E12096F94D00205B1D /* SAPThemeManagerDemoTests.swift */,
-				0BCE90E32096F94D00205B1D /* Info.plist */,
-			);
-			path = SAPThemeManagerDemoTests;
-			sourceTree = "<group>";
-		};
-		0BCE90EB2096F94D00205B1D /* SAPThemeManagerDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0BCE90EC2096F94D00205B1D /* SAPThemeManagerDemoUITests.swift */,
-				0BCE90EE2096F94D00205B1D /* Info.plist */,
-			);
-			path = SAPThemeManagerDemoUITests;
 			sourceTree = "<group>";
 		};
 		95977D5C2278EC2CE549E972 /* Pods */ = {
@@ -140,6 +143,8 @@
 			children = (
 				5B4B66DA3B6DB1CE6635401E /* Pods-SAPThemeManagerDemo.debug.xcconfig */,
 				27EAC17125D43F0C44494124 /* Pods-SAPThemeManagerDemo.release.xcconfig */,
+				A63F611298434038D4BB8812 /* Pods-CCThemeManagerDemo.debug.xcconfig */,
+				4B495C80EFCB9714962A54E1 /* Pods-CCThemeManagerDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				BC66E0A1FFD82389C7C688D4 /* Pods_SAPThemeManagerDemo.framework */,
+				EA80750CA232C7BF8E47CDD6 /* Pods_CCThemeManagerDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,9 +161,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0BCE90C82096F94C00205B1D /* SAPThemeManagerDemo */ = {
+		0BCE90C82096F94C00205B1D /* CCThemeManagerDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BCE90F12096F94D00205B1D /* Build configuration list for PBXNativeTarget "SAPThemeManagerDemo" */;
+			buildConfigurationList = 0BCE90F12096F94D00205B1D /* Build configuration list for PBXNativeTarget "CCThemeManagerDemo" */;
 			buildPhases = (
 				D17B9FE812EF2EEF7742350B /* [CP] Check Pods Manifest.lock */,
 				0BCE90C52096F94C00205B1D /* Sources */,
@@ -169,14 +175,14 @@
 			);
 			dependencies = (
 			);
-			name = SAPThemeManagerDemo;
+			name = CCThemeManagerDemo;
 			productName = SAPThemeManagerDemo;
-			productReference = 0BCE90C92096F94C00205B1D /* SAPThemeManagerDemo.app */;
+			productReference = 0BCE90C92096F94C00205B1D /* CCThemeManagerDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0BCE90DC2096F94D00205B1D /* SAPThemeManagerDemoTests */ = {
+		0BCE90DC2096F94D00205B1D /* CCThemeManagerDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BCE90F42096F94D00205B1D /* Build configuration list for PBXNativeTarget "SAPThemeManagerDemoTests" */;
+			buildConfigurationList = 0BCE90F42096F94D00205B1D /* Build configuration list for PBXNativeTarget "CCThemeManagerDemoTests" */;
 			buildPhases = (
 				0BCE90D92096F94D00205B1D /* Sources */,
 				0BCE90DA2096F94D00205B1D /* Frameworks */,
@@ -187,14 +193,14 @@
 			dependencies = (
 				0BCE90DF2096F94D00205B1D /* PBXTargetDependency */,
 			);
-			name = SAPThemeManagerDemoTests;
+			name = CCThemeManagerDemoTests;
 			productName = SAPThemeManagerDemoTests;
-			productReference = 0BCE90DD2096F94D00205B1D /* SAPThemeManagerDemoTests.xctest */;
+			productReference = 0BCE90DD2096F94D00205B1D /* CCThemeManagerDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0BCE90E72096F94D00205B1D /* SAPThemeManagerDemoUITests */ = {
+		0BCE90E72096F94D00205B1D /* CCThemeManagerDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BCE90F72096F94D00205B1D /* Build configuration list for PBXNativeTarget "SAPThemeManagerDemoUITests" */;
+			buildConfigurationList = 0BCE90F72096F94D00205B1D /* Build configuration list for PBXNativeTarget "CCThemeManagerDemoUITests" */;
 			buildPhases = (
 				0BCE90E42096F94D00205B1D /* Sources */,
 				0BCE90E52096F94D00205B1D /* Frameworks */,
@@ -205,9 +211,9 @@
 			dependencies = (
 				0BCE90EA2096F94D00205B1D /* PBXTargetDependency */,
 			);
-			name = SAPThemeManagerDemoUITests;
+			name = CCThemeManagerDemoUITests;
 			productName = SAPThemeManagerDemoUITests;
-			productReference = 0BCE90E82096F94D00205B1D /* SAPThemeManagerDemoUITests.xctest */;
+			productReference = 0BCE90E82096F94D00205B1D /* CCThemeManagerDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -239,7 +245,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0BCE90C42096F94C00205B1D /* Build configuration list for PBXProject "SAPThemeManagerDemo" */;
+			buildConfigurationList = 0BCE90C42096F94C00205B1D /* Build configuration list for PBXProject "CCThemeManagerDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -252,9 +258,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0BCE90C82096F94C00205B1D /* SAPThemeManagerDemo */,
-				0BCE90DC2096F94D00205B1D /* SAPThemeManagerDemoTests */,
-				0BCE90E72096F94D00205B1D /* SAPThemeManagerDemoUITests */,
+				0BCE90C82096F94C00205B1D /* CCThemeManagerDemo */,
+				0BCE90DC2096F94D00205B1D /* CCThemeManagerDemoTests */,
+				0BCE90E72096F94D00205B1D /* CCThemeManagerDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -264,10 +270,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BCE90D72096F94D00205B1D /* LaunchScreen.storyboard in Resources */,
-				0BCE90D42096F94D00205B1D /* Assets.xcassets in Resources */,
-				0BCE90D22096F94C00205B1D /* Main.storyboard in Resources */,
-				0BC1F8EC2097003C00635781 /* SBK.default.json in Resources */,
+				0B800F2821748AB400B01CF9 /* LaunchScreen.storyboard in Resources */,
+				0B800F2721748AB400B01CF9 /* SBK.default.json in Resources */,
+				0B800F2921748AB400B01CF9 /* Main.storyboard in Resources */,
+				0B800F2621748AB400B01CF9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,16 +300,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SAPThemeManagerDemo/Pods-SAPThemeManagerDemo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SAPThemeManager/SAPThemeManager.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-CCThemeManagerDemo/Pods-CCThemeManagerDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CCThemeManager/CCThemeManager.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAPThemeManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CCThemeManager.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SAPThemeManagerDemo/Pods-SAPThemeManagerDemo-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCThemeManagerDemo/Pods-CCThemeManagerDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D17B9FE812EF2EEF7742350B /* [CP] Check Pods Manifest.lock */ = {
@@ -317,7 +323,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SAPThemeManagerDemo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CCThemeManagerDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -331,8 +337,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BCE90CF2096F94C00205B1D /* ViewController.swift in Sources */,
-				0BCE90CD2096F94C00205B1D /* AppDelegate.swift in Sources */,
+				0B800F2521748AB400B01CF9 /* ViewController.swift in Sources */,
+				0B800F2A21748AB400B01CF9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BCE90E22096F94D00205B1D /* SAPThemeManagerDemoTests.swift in Sources */,
+				0B25FAD12174963100258026 /* CCThemeManagerDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BCE90ED2096F94D00205B1D /* SAPThemeManagerDemoUITests.swift in Sources */,
+				0B25FAD22174963700258026 /* CCThemeManagerDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,31 +363,31 @@
 /* Begin PBXTargetDependency section */
 		0BCE90DF2096F94D00205B1D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0BCE90C82096F94C00205B1D /* SAPThemeManagerDemo */;
+			target = 0BCE90C82096F94C00205B1D /* CCThemeManagerDemo */;
 			targetProxy = 0BCE90DE2096F94D00205B1D /* PBXContainerItemProxy */;
 		};
 		0BCE90EA2096F94D00205B1D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0BCE90C82096F94C00205B1D /* SAPThemeManagerDemo */;
+			target = 0BCE90C82096F94C00205B1D /* CCThemeManagerDemo */;
 			targetProxy = 0BCE90E92096F94D00205B1D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0BCE90D02096F94C00205B1D /* Main.storyboard */ = {
+		0B800F1A21748AB400B01CF9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0BCE90D12096F94C00205B1D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0BCE90D52096F94D00205B1D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0BCE90D62096F94D00205B1D /* Base */,
+				0B800F1B21748AB400B01CF9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0B800F1C21748AB400B01CF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B800F1D21748AB400B01CF9 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -441,6 +447,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -494,6 +501,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -502,14 +510,14 @@
 		};
 		0BCE90F22096F94D00205B1D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B4B66DA3B6DB1CE6635401E /* Pods-SAPThemeManagerDemo.debug.xcconfig */;
+			baseConfigurationReference = A63F611298434038D4BB8812 /* Pods-CCThemeManagerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 84R95CM6JF;
-				INFOPLIST_FILE = SAPThemeManagerDemo/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/CCThemeManagerDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sapphire.info.SAPThemeManagerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aoraki.info.CCThemeManagerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -518,14 +526,14 @@
 		};
 		0BCE90F32096F94D00205B1D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27EAC17125D43F0C44494124 /* Pods-SAPThemeManagerDemo.release.xcconfig */;
+			baseConfigurationReference = 4B495C80EFCB9714962A54E1 /* Pods-CCThemeManagerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 84R95CM6JF;
-				INFOPLIST_FILE = SAPThemeManagerDemo/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/CCThemeManagerDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sapphire.info.SAPThemeManagerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aoraki.info.CCThemeManagerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -601,7 +609,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BCE90C42096F94C00205B1D /* Build configuration list for PBXProject "SAPThemeManagerDemo" */ = {
+		0BCE90C42096F94C00205B1D /* Build configuration list for PBXProject "CCThemeManagerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BCE90EF2096F94D00205B1D /* Debug */,
@@ -610,7 +618,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BCE90F12096F94D00205B1D /* Build configuration list for PBXNativeTarget "SAPThemeManagerDemo" */ = {
+		0BCE90F12096F94D00205B1D /* Build configuration list for PBXNativeTarget "CCThemeManagerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BCE90F22096F94D00205B1D /* Debug */,
@@ -619,7 +627,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BCE90F42096F94D00205B1D /* Build configuration list for PBXNativeTarget "SAPThemeManagerDemoTests" */ = {
+		0BCE90F42096F94D00205B1D /* Build configuration list for PBXNativeTarget "CCThemeManagerDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BCE90F52096F94D00205B1D /* Debug */,
@@ -628,7 +636,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BCE90F72096F94D00205B1D /* Build configuration list for PBXNativeTarget "SAPThemeManagerDemoUITests" */ = {
+		0BCE90F72096F94D00205B1D /* Build configuration list for PBXNativeTarget "CCThemeManagerDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0BCE90F82096F94D00205B1D /* Debug */,

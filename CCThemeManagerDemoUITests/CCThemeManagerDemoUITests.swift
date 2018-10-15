@@ -1,6 +1,6 @@
 //
-//  SAPThemeManagerDemoUITests.swift
-//  SAPThemeManagerDemoUITests
+//  CCThemeManagerDemoUITests.swift
+//  CCThemeManagerDemoUITests
 //
 //  Created by Calvin Chang on 2018/4/30.
 //  Copyright © 2018 CalvinChang. All rights reserved.

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SAPThemeManager
+import CCThemeManager
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

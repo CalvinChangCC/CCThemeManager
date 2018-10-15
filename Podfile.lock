@@ -1,16 +1,16 @@
 PODS:
-  - SAPThemeManager (2.0.0)
+  - CCThemeManager (2.1.2)
 
 DEPENDENCIES:
-  - SAPThemeManager (from `./`)
+  - CCThemeManager (from `./`)
 
 EXTERNAL SOURCES:
-  SAPThemeManager:
+  CCThemeManager:
     :path: "./"
 
 SPEC CHECKSUMS:
-  SAPThemeManager: e07eade31f68f54e9bac8e644210c2c2c128f3b9
+  CCThemeManager: 51d840fc1b35efd19bac64c366f969c26b00bdaf
 
-PODFILE CHECKSUM: 28ad590332246ed828ea3beea215dad066dd6e07
+PODFILE CHECKSUM: a703714a8b41f50a0161acaef7eba63ceb84b8d5
 
 COCOAPODS: 1.5.3
